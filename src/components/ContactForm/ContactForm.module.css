@@ -1,0 +1,43 @@
+.form {
+  width: 300px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  margin-bottom: 32px;
+  border: 1px solid gray;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  background-color: rgb(34, 34, 192);
+  border: none;
+  color: azure;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 16px;
+  margin-top: 8px;
+}
+
+.label {
+  font-size: 16px;
+  margin-bottom: 4px;
+  margin-top: 8px;
+}
+
+.input {
+  font-size: 14px;
+  height: 24px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  padding-left: 4px;
+}
+
+.error {
+  color: tomato;
+  font-size: 12px;
+}
